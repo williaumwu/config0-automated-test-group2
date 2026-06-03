@@ -39,7 +39,7 @@ def run(stackargs):
 
     stack.parse.add_optional(key="region",
                              types="str",
-                             default="us-east-1")
+                             default="ap-northeast-1")
 
     # cross-repo dependencies (no credentials required for the scan passes)
     stack.add_execgroup("williaumwu:::config0-automated-test-group1::run_terraform")
