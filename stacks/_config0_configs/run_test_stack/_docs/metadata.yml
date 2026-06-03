@@ -1,0 +1,17 @@
+desc: Automated-test stack that composes the group1 run_terraform execgroup, the group0 resource_wrapper.sh script, and the vpc_substack sub-stack (cross-repo stack fixture)
+release: 0.1.0
+author: williaumwu <williaumwu@users.noreply.github.com>
+license: GPL-3.0
+permission: public
+publish:
+   resource_name: str
+   aws_default_region: str
+categories:
+   - aws
+   - terraform
+   - test
+tags:
+   - terraform
+   - automated-test
+   - cross-repo
+   - stack
